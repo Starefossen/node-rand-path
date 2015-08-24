@@ -4,6 +4,7 @@
   "description": "Dead simple random path generator",
   "main": "index.js",
   "scripts": {
+    "hint": "jshint index.js test.js",
     "test": "mocha -b -c --check-leaks -R tap test.js",
     "watch": "mocha -w -b -c --check-leaks -R progress test.js"
   },
@@ -11,6 +12,7 @@
     "node": ">= 0.10.0"
   },
   "devDependencies": {
+    "jshint": "^2.8.0",
     "mocha": "2.2.5"
   },
   "repository": {
