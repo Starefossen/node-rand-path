@@ -29,6 +29,12 @@ npm install @starefossen/rand-path --save
 'na/k5/uO/Ou/QE/TH/CS/N9/Gq/Zh'
 ```
 
+## Test
+
+```
+npm test
+```
+
 ## Collision Probability
 
 With the default alphabet of 62 characters, this random path generator has a
