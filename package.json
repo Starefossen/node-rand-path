@@ -1,0 +1,32 @@
+{
+  "name": "@starefossen/rand-path",
+  "version": "1.0.0",
+  "description": "Dead simple random path generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -b -c --check-leaks -R tap test.js",
+    "watch": "mocha -w -b -c --check-leaks -R progress test.js"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "2.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Starefossen/node-rand-path.git"
+  },
+  "keywords": [
+    "temp",
+    "random",
+    "directory",
+    "upload"
+  ],
+  "author": "Hans Kristian Flaatten <hans.kristian.flaatten@turistforeningen.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Starefossen/node-rand-path/issues"
+  },
+  "homepage": "https://github.com/Turistforeningen/node-dnt-connect#readme"
+}
