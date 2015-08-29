@@ -1,6 +1,6 @@
 {
   "name": "@starefossen/rand-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dead simple random path generator",
   "main": "index.js",
   "scripts": {
