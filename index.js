@@ -7,8 +7,6 @@ module.exports = function randPath(depth) {
   var x;
   var y;
 
-  console.log(module.exports.a.length);
-
   for (i = 0; i < depth; i++) {
     x = module.exports.a[Math.floor(Math.random() * module.exports.a.length)];
     y = module.exports.a[Math.floor(Math.random() * module.exports.a.length)];
