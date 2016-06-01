@@ -1,15 +1,12 @@
 'use strict';
 
-module.exports = function randPath(depth) {
-  depth = depth || 3;
-  var res = [];
-  var i;
-  var x;
-  var y;
+module.exports = function randPath(d) {
+  const depth = d || 3;
+  const res = [];
 
-  for (i = 0; i < depth; i++) {
-    x = module.exports.a[Math.floor(Math.random() * module.exports.a.length)];
-    y = module.exports.a[Math.floor(Math.random() * module.exports.a.length)];
+  for (let i = 0; i < depth; i++) {
+    const x = module.exports.a[Math.floor(Math.random() * module.exports.a.length)];
+    const y = module.exports.a[Math.floor(Math.random() * module.exports.a.length)];
     res.push(x + y);
   }
 
@@ -19,5 +16,5 @@ module.exports = function randPath(depth) {
 module.exports.a = [
   'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
   'abcdefghijklmnopqrstuvwxyz',
-  '0123456789'
+  '0123456789',
 ].join('');
