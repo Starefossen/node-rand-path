@@ -3,6 +3,10 @@
   "version": null,
   "description": "Dead simple random path generator",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "test.js"
+  ],
   "scripts": {
     "hint": "jshint index.js test.js",
     "test": "mocha -b -c --check-leaks -R tap test.js",
