@@ -25,7 +25,7 @@
     "directory",
     "upload"
   ],
-  "author": "Hans Kristian Flaatten <hans.kristian.flaatten@turistforeningen.no>",
+  "author": "Hans Kristian Flaatten <hans@starefossen.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Starefossen/node-rand-path/issues"
