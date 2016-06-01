@@ -10,10 +10,6 @@
 
 Dead simple random path generator.
 
-## Requirements
-
-Require Node.JS version `>= 0.10`.
-
 ## Install
 
 ```
