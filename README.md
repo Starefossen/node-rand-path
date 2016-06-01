@@ -1,8 +1,8 @@
 # @starefossen/rand-path
 
 [![Build status](https://img.shields.io/wercker/ci/55dc258586a50fca220ae773.svg "Build status")](https://app.wercker.com/project/bykey/2df0989284b71b22b33a3bd0555f445a)
-[![Codacy grade](https://img.shields.io/codacy/grade/d9b70744f7b04ad785bdf1aafbf5d2c0.svg "Codacy grade")](https://www.codacy.com/app/starefossen/node-rand-path)
-[![Codacy coverage](https://img.shields.io/codacy/coverage/d9b70744f7b04ad785bdf1aafbf5d2c0.svg "Codacy coverage")](https://www.codacy.com/app/starefossen/node-rand-path)
+[![Codacy grade](https://img.shields.io/codacy/grade/91016e0b22484cde9ef27e1219cf7850.svg "Codacy grade")](https://www.codacy.com/app/starefossen/node-rand-path)
+[![Codacy coverage](https://img.shields.io/codacy/coverage/91016e0b22484cde9ef27e1219cf7850.svg "Codacy coverage")](https://www.codacy.com/app/starefossen/node-rand-path)
 [![NPM downloads](https://img.shields.io/npm/dm/@starefossen/rand-path.svg "NPM downloads")](https://www.npmjs.com/package/@starefossen/rand-path)
 [![NPM version](https://img.shields.io/npm/v/@starefossen/rand-path.svg "NPM version")](https://www.npmjs.com/package/@starefossen/rand-path)
 [![Node version](https://img.shields.io/node/v/@starefossen/rand-path.svg "Node version")](https://www.npmjs.com/package/@starefossen/rand-path)
