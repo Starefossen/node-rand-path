@@ -1,20 +1,24 @@
 'use strict';
 
-module.exports = function randPath(d) {
+const a = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+
+module.exports = function randPath(d, l) {
   const depth = d || 3;
+  const length = l || 2;
+
   const res = [];
 
   for (let i = 0; i < depth; i++) {
-    const x = module.exports.a[Math.floor(Math.random() * module.exports.a.length)];
-    const y = module.exports.a[Math.floor(Math.random() * module.exports.a.length)];
-    res.push(x + y);
+    const dir = [];
+
+    for (let j = 0; j < length; j++) {
+      dir.push(a[Math.floor(Math.random() * module.exports.a.length)]);
+    }
+
+    res.push(dir.join(''));
   }
 
   return res.join('/');
 };
 
-module.exports.a = [
-  'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
-  'abcdefghijklmnopqrstuvwxyz',
-  '0123456789',
-].join('');
+module.exports.a = a;

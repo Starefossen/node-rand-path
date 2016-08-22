@@ -24,8 +24,8 @@ npm install @starefossen/rand-path --save
 'wr/TB/s6'
 > randPath(4)
 '3J/P3/8K/y6'
-> randPath(10)
-'na/k5/uO/Ou/QE/TH/CS/N9/Gq/Zh'
+> randPath(10, 3)
+'6Szt/skob/vvay/ul23/6ceF/iX3O/ngU8/jKQU'
 ```
 
 ## Test
